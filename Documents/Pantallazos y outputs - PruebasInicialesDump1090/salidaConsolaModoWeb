@@ -1,0 +1,679 @@
+DF 5: Surveillance, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+
+*02e198385bfaee;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff9941472788048c78a9e7;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*a0001838ca380030a80000d503d1;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*200018385d22a4;
+CRC: 4ca1ff (ok)
+DF 4: Surveillance, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*200018385d22a4;
+CRC: 4ca1ff (ok)
+DF 4: Surveillance, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*20000c2a679990;
+CRC: ae0808 (ok)
+DF 4: Surveillance, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 28000 feet
+  ICAO Address   : ae0808
+
+*8d4ca1ff204994b8e4b820d9856a;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 4
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Aircraft Identification and Category
+    Aircraft Type  : A0
+    Identification : RYR89K  
+
+*8d4ca1ff58c380b75f09f3d71598;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.074417
+    Longitude: -3.680946
+
+*8d4ca1ff58c3844e270f4e301b5e;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.075832
+    Longitude: -3.679106
+
+*200018385d22a4;
+CRC: 4ca1ff (ok)
+DF 4: Surveillance, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff58c3844ed70fa7321fed;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.079928
+    Longitude: -3.673792
+
+*8dae080820483239d7982031f845;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : ae0808
+  Extended Squitter  Type: 4
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Aircraft Identification and Category
+    Aircraft Type  : A0
+    Identification : RCH959  
+
+*a0001838ca380030a80000d503d1;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*a8001692fff20d38bffcde62ab6b;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ff
+
+*5d4ca1ff84b161;
+CRC: 000000 (ok)
+DF 11: All Call Reply.
+  Capability  : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address: 4ca1ff
+  IID         : II-00
+
+*8d4ca1ff58c380b88f0a8d09a196;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.081375
+    Longitude: -3.671946
+
+*8d4ca1ff9941472780048c160bef;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*a8001692ca380030a80000410eac;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*5d4ca1ff84b161;
+CRC: 000000 (ok)
+DF 11: All Call Reply.
+  Capability  : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address: 4ca1ff
+  IID         : II-00
+
+*28001692afd632;
+CRC: 4ca1ff (ok)
+DF 5: Surveillance, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff9941472780048c160bef;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*02e198385bfaee;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff9941472780048c160bef;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*a80016929069e530202c00f6bda3;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : 90
+
+*a0000c2a8012d7346004d9767988;
+CRC: ae0808 (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 28000 feet
+  ICAO Address   : ae0808
+  Comm-B BDS     : 80
+
+*200018385d22a4;
+CRC: 4ca1ff (ok)
+DF 4: Surveillance, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*a0001838ca380030a80000d503d1;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*8d4ca1ff58c380b9db0b354aebc7;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.088974
+    Longitude: -3.662129
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff58c380ba5b0b75df6bff;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.091904
+    Longitude: -3.658389
+
+*8d4ca1ff9941472788048c78a9e7;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff58c384511710c9264400;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.093335
+    Longitude: -3.656477
+
+*02e198385bfaee;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff58c384514910e2cdfa02;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.094499
+    Longitude: -3.654984
+
+*a0001838ca380030a80000d503d1;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*a80016929059e5303fefff004bfb;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : 90
+
+*a80016929059e5303fefff004bfb;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : 90
+
+*8d4ca1ff9941472788048c78a9e7;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*a000183810010080ed0000b2e50e;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : 10
+
+*5d4ca1ff84b161;
+CRC: 000000 (ok)
+DF 11: All Call Reply.
+  Capability  : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address: 4ca1ff
+  IID         : II-00
+
+*8d4ca1ff58c38451c7112190c513;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.097432
+    Longitude: -3.651223
+
+*a0001838ca380030a80000d503d1;
+CRC: 4ca1ff (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : ca
+
+*28001692afd632;
+CRC: 4ca1ff (ok)
+DF 5: Surveillance, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+
+*02e6183883c70d;
+CRC: 4ca1ff (ok)
+DF 0: Short Air-Air Surveillance.
+  VS             : Airborne
+  CC             : 1
+  SL             : 7
+  Altitude       : 38000 feet
+  ICAO Address   : 4ca1ff
+
+*8d4ca1ff58c38452431160cde026;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.100318
+    Longitude: -3.647461
+
+*5d4ca1ff84b161;
+CRC: 000000 (ok)
+DF 11: All Call Reply.
+  Capability  : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address: 4ca1ff
+  IID         : II-00
+
+*8d4ca1ff58c380bc3f0c6a0ad17a;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.102982
+    Longitude: -3.644072
+
+*8d4ca1ff204994b8e4b820d9856a;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 4
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Aircraft Identification and Category
+    Aircraft Type  : A0
+    Identification : RYR89K  
+
+*8d4ca1ff58c380bd3d0cebc27662;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 38000 feet
+    Latitude : 37.108795
+    Longitude: -3.636533
+
+*8d02007b58bf04a978ff3ed201eb;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 02007b
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : odd
+    T flag   : non-UTC
+    Altitude : 37000 feet
+    Latitude : 21692 (not decoded)
+    Longitude: 65342 (not decoded)
+
+*8d02007be908be00093810a4a191;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 02007b
+  Extended Squitter  Type: 29
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Target State and Status Message
+    Unrecognized ME type: 29 subtype: 0
+
+*8d02007b58bf01141af99431b67e;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 02007b
+  Extended Squitter  Type: 11
+  Extended Squitter  Sub : 0
+  Extended Squitter  Name: Airborne Position (Baro Altitude)
+    F flag   : even
+    T flag   : non-UTC
+    Altitude : 37000 feet
+    Latitude : 37.617783
+    Longitude: -3.925859
+
+*a80016929059e5303fdc0036c5f2;
+CRC: 4ca1ff (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 6431
+  ICAO Address   : 4ca1ff
+  Comm-B BDS     : 90
+
+*a00017b0c8480030aa00002fbb99;
+CRC: 02007b (ok)
+DF 20: Comm-B, Altitude Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Altitude       : 37000 feet
+  ICAO Address   : 02007b
+  Comm-B BDS     : c8
+
+*a8000fa1801913386004e39a7a4e;
+CRC: 02007b (ok)
+DF 21: Comm-B, Identity Reply.
+  Flight Status  : Normal, Airborne
+  DR             : 0
+  UM             : 0
+  Squawk         : 7164
+  ICAO Address   : 02007b
+  Comm-B BDS     : 80
+
+*8d4ca1ff9941472780048c160bef;
+CRC: 000000 (ok)
+DF 17: ADS-B message.
+  Capability     : 5 (Level 2+3+4 (DF0,4,5,11,20,21,24,code7 - is airborne))
+  ICAO Address   : 4ca1ff
+  Extended Squitter  Type: 19
+  Extended Squitter  Sub : 1
+  Extended Squitter  Name: Airborne Velocity
+    EW status         : Valid
+    EW velocity       : 326
+    NS status         : Valid
+    NS velocity       : 315
+    Vertical status   : Valid
+    Vertical rate src : 0
+    Vertical rate     : 0
