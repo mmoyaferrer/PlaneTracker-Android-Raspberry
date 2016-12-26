@@ -1,0 +1,35 @@
+[
+{"hex":"424302", "squawk":"0000", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":34575,  "vert_rate":-1024,"track":227, "validtrack":1,"speed":427, "messages":2, "seen":8}
+]
+
+
+[
+{"hex":"424302", "squawk":"0000", "flight":"AFL2520 ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":34000,  "vert_rate":-1536,"track":227, "validtrack":1,"speed":427, "messages":18, "seen":7}
+]
+
+[
+{"hex":"424302", "squawk":"4060", "flight":"AFL2520 ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":33200,  "vert_rate":-2048,"track":227, "validtrack":1,"speed":422, "messages":24, "seen":5}
+]
+
+[
+{"hex":"424302", "squawk":"4060", "flight":"AFL2520 ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":31775,  "vert_rate":-2112,"track":227, "validtrack":1,"speed":416, "messages":49, "seen":12}
+]
+
+[
+{"hex":"345313", "squawk":"3767", "flight":"VLG2422 ", "lat":37.475922, "lon":-3.294262, "validposition":1, "altitude":38000,  "vert_rate":0,"track":72, "validtrack":1,"speed":421, "messages":152, "seen":0}
+]
+
+Si hay 2 aviones ->
+
+[
+{"hex":"3443d3", "squawk":"4673", "flight":"VLG3014 ", "lat":37.716344, "lon":-2.913646, "validposition":1, "altitude":35000,  "vert_rate":0,"track":225, "validtrack":1,"speed":427, "messages":74, "seen":0},
+{"hex":"345313", "squawk":"3767", "flight":"VLG2422 ", "lat":37.573568, "lon":-2.912750, "validposition":1, "altitude":38000,  "vert_rate":0,"track":72, "validtrack":1,"speed":420, "messages":1217, "seen":0}
+]
+
+Si hay 3 ->
+
+[
+{"hex":"47875a", "squawk":"0756", "flight":"NAX21U  ", "lat":37.708557, "lon":-3.218994, "validposition":1, "altitude":31800,  "vert_rate":-2496,"track":227, "validtrack":1,"speed":436, "messages":64, "seen":2},
+{"hex":"3443d3", "squawk":"4673", "flight":"VLG3014 ", "lat":37.567097, "lon":-3.096174, "validposition":1, "altitude":35000,  "vert_rate":64,"track":225, "validtrack":1,"speed":425, "messages":504, "seen":0},
+{"hex":"345313", "squawk":"3767", "flight":"VLG2422 ", "lat":37.635064, "lon":-2.669021, "validposition":1, "altitude":38000,  "vert_rate":0,"track":72, "validtrack":1,"speed":423, "messages":1675, "seen":0}
+]
