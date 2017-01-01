@@ -10,8 +10,12 @@ import java.net.Socket;
 import java.io.IOException;
 
 /**
- *
- * @author Juanma
+ * This text describes a simple multi threaded server. 
+ * 
+ * The main difference between a Single Server is:
+ * Rather than processing the incoming requests in the same thread that accepts 
+ * the client connection, the connection is handed off to a worker thread that 
+ * will process the request.
  */
 public class MultiThreadedServer implements Runnable{
     
@@ -20,14 +24,25 @@ public class MultiThreadedServer implements Runnable{
     protected ServerSocket  serverSocket    = null;
     protected Thread        runningThread   = null;
     
+    /**
+     * Initialise server port
+     * @param port
+     */
     public MultiThreadedServer(int port){
         this.serverPort = port;
     }
     
+    /**
+     * Return the state of isStopped flag
+     * True or False.
+     */
     private synchronized boolean isStopped() {
         return this.isStopped;
     }
 
+    /**
+     * Close the socket with the client Stopping the server.
+     */
     public synchronized void stop(){
         this.isStopped = true;
         try {
@@ -37,21 +52,27 @@ public class MultiThreadedServer implements Runnable{
         }
     }
 
+    /**
+     * Open the Server Socket in the specified port
+     */
     private void openServerSocket() {
         try {
             this.serverSocket = new ServerSocket(this.serverPort);
         } catch (IOException e) {
-            throw new RuntimeException("Cannot open port 8080", e);
+            throw new RuntimeException("Cannot open port specified, sorry", e);
         }
     }
 
     @Override
     public void run(){
         synchronized(this){
-            this.runningThread = Thread.currentThread();
+            this.runningThread = Thread.currentThread();   // It creates a thread to proccess the incoming request
         }
-        openServerSocket();
+        openServerSocket();                              // It open a socket 
         
+        
+        // isStopped==false  (El flag dice que el server está activo) , se crea un socket con el cliente que se le manda a una hebra trabajadora 
+        // que se encarga de descargarse el json y mandarlo por dicho socket.
         while(! isStopped()){
             Socket clientSocket = null;
             
@@ -75,11 +96,11 @@ public class MultiThreadedServer implements Runnable{
     }
     
     public static void main(String[] args) {
-        MultiThreadedServer server = new MultiThreadedServer(9000);
+        MultiThreadedServer server = new MultiThreadedServer(9000);     // Puerto donde atiende el servidor
         new Thread(server).start();
 
         try {
-            Thread.sleep(20 * 1000);
+            Thread.sleep(480 * 1000);    // The thread sleep after 8 minutes to prevent DDOS Attack
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
