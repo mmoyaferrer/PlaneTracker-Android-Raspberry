@@ -100,7 +100,7 @@ public class MultiThreadedServer implements Runnable{
         new Thread(server).start();
 
         try {
-            Thread.sleep(480 * 1000);    // The thread sleep after 8 minutes to prevent DDOS Attack
+            Thread.sleep(18000 * 1000);    // The thread sleep after 8 minutes to prevent DDOS Attack
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

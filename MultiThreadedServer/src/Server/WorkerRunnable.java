@@ -6,11 +6,13 @@
 package Server;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -78,7 +80,8 @@ public class WorkerRunnable implements Runnable{
      */
     private void sendingJson(){
         try {
-            jsonOutput.write(json);
+      //      jsonOutput.write(json);
+      jsonOutput.write(5);
         } catch (IOException ex) {
             System.out.println("Se ve que no ha pillao el json");
             Logger.getLogger(WorkerRunnable.class.getName()).log(Level.SEVERE, null, ex);
@@ -94,28 +97,42 @@ public class WorkerRunnable implements Runnable{
         try {
             InputStream input  = clientSocket.getInputStream();
             OutputStream output = clientSocket.getOutputStream();
-            this.jsonOutput = new OutputStreamWriter(output, StandardCharsets.UTF_8);
+            this.jsonOutput = new OutputStreamWriter(output);
+            
+            PrintWriter outWriter = new PrintWriter( new BufferedWriter(jsonOutput));
+            outWriter.println(" Lo que sea que es esto lo es o no");
             
             time = System.currentTimeMillis();
-            output.write(("HTTP/1.1 200 OK\n\nWorkerRunnable: " + this.serverText + " - " + time + "").getBytes());
+           // output.write(("HTTP/1.1 200 OK\n\nWorkerRunnable: " + this.serverText + " - " + time + "").getBytes());
             
+           
+           while(true){ 
+            outWriter.println(" Lo que sea que es esto lo es o no");
+            jsonDownloader();
+            sendingJson();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(WorkerRunnable.class.getName()).log(Level.SEVERE, null, ex);
+                }
+           }
 
-            TimerTask task = new TimerTask() {        // TimerTask crea un objeto runnable "task" que se va ejecutará cada cierto tiempo por medio del objeto Timer
-                @Override
-                public void run() {
-                    jsonDownloader();
-                    sendingJson();
-                    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-                }  
-            };
-            timer.schedule(task, -1, 1000);   // El timer ejecuta la tarea especificada, se inicia en el instante de tiempo que se le diga (-1 es ya !), en intervalos de 1000 ms
+//            TimerTask task = new TimerTask() {        // TimerTask crea un objeto runnable "task" que se va ejecutará cada cierto tiempo por medio del objeto Timer
+//                @Override
+//                public void run() {
+//                    jsonDownloader();
+//                    sendingJson();
+//                    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//                }  
+//            };
+//            timer.schedule(task, 1, 1000);   // El timer ejecuta la tarea especificada, se inicia en el instante de tiempo que se le diga (-1 es ya !), en intervalos de 1000 ms
             
             //tengo que ver como se para esto, o no
             
-            output.close();
-            this.jsonOutput.close();
-            input.close();
-            System.out.println("Request processed: " + time);
+            //output.close();
+        //    this.jsonOutput.close();
+         //   input.close();
+         //   System.out.println("Request processed: " + time);
         } catch (IOException e) {
             //report exception somewhere.
             e.printStackTrace();
