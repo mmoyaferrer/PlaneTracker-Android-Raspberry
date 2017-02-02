@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "821320371057",
+    "project_id": "planetracker-156720"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821320371057:android:8130a83f47736cda",
+        "android_client_info": {
+          "package_name": "com.example.moya.planetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_D9-1nJwcvTNwSw-5AaKOZ0Nr6Rg8ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-91293312-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
