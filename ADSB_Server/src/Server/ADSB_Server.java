@@ -1,23 +1,23 @@
-
 /*
  *  ADSB_Server is a simple multithreaded server which accepts a client
  *  connection and then is proccesed by a worker thread.
  *
- *  Copyright (C) 2017  Juan Manuel López Torralba
+ *  2017  Juan Manuel López Torralba & Manuel Moya Ferrer
  *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU Affero General Public License as
- *  published by the Free Software Foundation, either version 3 of the
- *  License, or (at your option) any later version.
+ *  This work is licensed under the Creative Commons
+ *  Attribution-NonCommercial-ShareAlike 
+ *  CC BY-NC-SA
+ *  License 
+ *  
+ * This license lets others remix, tweak, and build upon your work
+ * non-commercially, as long as they credit you and license their new 
+ * creations under the identical terms.
  *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU Affero General Public License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * To view a copy of the license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
  */
+
+
+
 package Server;
 
 import java.net.ServerSocket;
