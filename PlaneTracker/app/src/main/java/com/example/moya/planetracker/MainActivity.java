@@ -19,7 +19,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity implements  FragmentInicio.OnFragmentInteractionListener
-        ,FragmentConfig.OnFragmentInteractionListener{
+        ,FragmentConfig.OnFragmentInteractionListener, FragmentAcercaDe.OnFragmentInteractionListener
+        ,FragmentAyuda.OnFragmentInteractionListener{
 
 
     private ListView mDrawerList;
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements  FragmentInicio.O
 
     public Socket socketConnection;
     public BufferedReader bufferedReader;
+
+    public static String IP="172.24.1.1";
+    public static int Puerto=9000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +67,16 @@ public class MainActivity extends AppCompatActivity implements  FragmentInicio.O
                     getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contentframe)).commit();
                     mDrawerLayout.closeDrawer(GravityCompat.START);
                     getSupportFragmentManager().beginTransaction().add(R.id.contentframe, new FragmentConfig()).commit();
+                }
+                else if(arrayMenu[position].equals("Ayuda")){
+                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contentframe)).commit();
+                    mDrawerLayout.closeDrawer(GravityCompat.START);
+                    getSupportFragmentManager().beginTransaction().add(R.id.contentframe, new FragmentAyuda()).commit();
+                }
+                else if(arrayMenu[position].equals("Acerca De")){
+                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contentframe)).commit();
+                    mDrawerLayout.closeDrawer(GravityCompat.START);
+                    getSupportFragmentManager().beginTransaction().add(R.id.contentframe, new FragmentAcercaDe()).commit();
                 }
             }
         });

@@ -1,30 +1,23 @@
 package com.example.moya.planetracker;
 
-import android.content.Context;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-
-import java.io.BufferedReader;
-import java.net.Socket;
+import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class FragmentConfig extends Fragment{
 
+
+    public Button buttonCambiarPuerto;
+    public Button buttonCambiarIP;
+    public EditText editTextPuerto;
+    public EditText editTextIP;
 
 
     public FragmentConfig() {
@@ -36,7 +29,29 @@ public class FragmentConfig extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_inicio, container, false);
+        View view=inflater.inflate(R.layout.fragment_config, container, false);
+
+        buttonCambiarIP=(Button)view.findViewById(R.id.buttonIP);
+        buttonCambiarPuerto=(Button)view.findViewById(R.id.buttonPuerto);
+        editTextIP =(EditText) view.findViewById(R.id.textViewIP);
+        editTextPuerto =(EditText) view.findViewById(R.id.textViewPuerto);
+
+        buttonCambiarIP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.IP= String.valueOf(editTextIP.getText());
+                Toast.makeText(getContext(),"IP cambiada a: "+MainActivity.IP,Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        buttonCambiarPuerto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.Puerto= Integer.parseInt(String.valueOf(editTextPuerto.getText()));
+                Toast.makeText(getContext(),"Puerto cambiado a: "+MainActivity.Puerto,Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
 
 

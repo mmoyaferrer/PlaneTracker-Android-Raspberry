@@ -13,34 +13,94 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scrollbarStyle="outsideOverlay"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:scrollbarStyle="outsideOverlay">
+            android:layout_alignParentStart="true">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
 
+
+                <Button
+                    android:text="Ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonIP"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/buttonPuerto"
+                    android:layout_alignLeft="@+id/buttonPuerto"
+                    android:layout_alignStart="@+id/buttonPuerto" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textViewAviones"
-                    android:layout_marginTop="@dimen/activity_horizontal_margin"
-                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
-                    android:layout_marginLeft="@dimen/activity_vertical_margin"
-                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:inputType="textPersonName"
+                    android:text="Puerto Raspberry: "
                     android:textStyle="bold"
                     android:fontFamily="casual"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
+                    android:id="@+id/editTextPuerto"
+                    android:layout_alignBaseline="@+id/buttonPuerto"
+                    android:layout_alignBottom="@+id/buttonPuerto"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
-                    android:text="Aquí podremos los parámetros de configuración que sean" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="IP Raspberry: "
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:id="@+id/editTextIP"
+                    android:textSize="18dp"
+                    android:layout_alignBaseline="@+id/textViewIP"
+                    android:layout_alignBottom="@+id/textViewIP"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:text="Ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonPuerto"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:text="9000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewPuerto"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    android:fontFamily="casual"
+                    android:layout_above="@+id/textViewIP"
+                    android:layout_toRightOf="@+id/editTextPuerto"
+                    android:layout_toEndOf="@+id/editTextPuerto" />
+
+                <EditText
+                    android:text="172.24.1.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewIP"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    android:fontFamily="casual"
+                    android:layout_below="@+id/buttonPuerto"
+                    android:layout_alignLeft="@+id/textViewPuerto"
+                    android:layout_alignStart="@+id/textViewPuerto" />
 
 
-
-            </LinearLayout>
+            </RelativeLayout>
         </ScrollView>
     </RelativeLayout>
 </FrameLayout>

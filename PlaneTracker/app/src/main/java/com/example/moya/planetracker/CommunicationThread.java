@@ -44,7 +44,7 @@ public class CommunicationThread extends AsyncTask<String, String, String> {
     protected String doInBackground(String... strings) {
 
         try {
-            socket=new Socket("172.24.1.1",9000);
+            socket=new Socket(MainActivity.IP,MainActivity.Puerto);
             System.out.println("CONECTED");
         } catch (IOException e) {
             e.printStackTrace();
