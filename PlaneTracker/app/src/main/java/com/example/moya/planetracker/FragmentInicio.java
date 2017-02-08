@@ -1,3 +1,21 @@
+///////////////////////////////////////////////////////////////////
+/////////// A DS-B PlaneTracker Raspberry-Android /////////////////
+///////////////////////////////////////////////////////////////////
+///////////               Authors:                      ///////////
+//       Manuel Moya Ferrer - Juan Manuel López Torralba         //
+//                                                               //
+//  OpenSource with Creative Commons Attribution-NonCommercial-  //
+//  ShareAlike license ubicated in GitHub throughout:            //
+// https://github.com/mmoyaferrer/PlaneTracker-Android-Raspberry //
+//                                                               //
+//  This work is licensed under the Creative Commons             //
+//  Attribution-NonCommercial-ShareAlike CC BY-NC-SA License.    //
+//  To view a copy of the license, visit                         //
+//  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode  //
+///////////                                             ///////////
+///////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
 package com.example.moya.planetracker;
 
 import android.content.Context;
